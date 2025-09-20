@@ -1,0 +1,9 @@
+flash-attention/
+# local build outputs (we publish via Releases, not git history)
+wheels/*/*.whl
+wheels/*/*.tar.gz
+wheels/*.whl
+manifests/*.json
+build/cache/
+__pycache__/
+env_*/
